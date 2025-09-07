@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>currículo - felypy gabriel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <!-- fundo animado com canvas -->
+  <canvas id="background"></canvas>
+
+  <!-- cabeçalho com menu de navegação -->
+  <header>
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="menu">
+      <a href="#sobre"><i class="fas fa-user"></i> sobre</a>
+      <a href="#experiencia"><i class="fas fa-briefcase"></i> experiência</a>
+      <a href="#formacao"><i class="fas fa-graduation-cap"></i> formação</a>
+      <a href="#competencias"><i class="fas fa-star"></i> competências</a>
+      <a href="#contato"><i class="fas fa-envelope"></i> contato</a>
+    </nav>
+  </header>
+
+  <!-- seção de apresentação pessoal -->
+  <section class="apresentacao" id="sobre">
+    <div class="texto-apresentacao">
+      <h1 class="nome">Felypy Gabriel Almeida dos Santos</h1>
+      <p>
+        <i class="fas fa-network-wired"></i> estudante de redes de computadores — 19 anos<br>
+        <i class="fas fa-map-marker-alt"></i> rua, SN (não tem) - são joão dos patos/ma - cep: 65665000 <br>
+        <i class="fas fa-phone"></i> +55 98 9-7017-0794 | <i class="fas fa-envelope"></i> gabriel.felypy85@gmail.com
+      </p>
+      <div class="botoes-apresentacao">
+        <button onclick="window.location.href='#contato'">entre em contato</button>
+        <button onclick="window.open('https://github.com/FelypyGabriel', '_blank')">ver projetos</button>
+      </div>
+    </div>
+    <div class="imagem-apresentacao">
+      <img src="foto1.png" alt="foto de perfil felypy gabriel">
+    </div>
+  </section>
+
+  <div class="separador"></div>
+
+  <!-- experiência profissional -->
+  <h1 class="titulo-secao" id="experiencia">experiência</h1>
+  <section class="lista-cartoes">
+    <div class="cartao">
+      <div class="info-cartao">
+        <span class="categoria">desenvolvimento</span>
+        <h3 class="titulo">criação de sistema (python/django)</h3>
+        <p class="detalhes">instituto federal - são joão dos patos • 12 meses (em andamento)</p>
+        <p>desenvolvimento de sistema para envio de mensagens em massa com interface gráfica. uso de python/django, js, sql e html/css.</p>
+      </div>
+    </div>
+
+    <div class="cartao">
+      <div class="info-cartao">
+        <span class="categoria">ensino</span>
+        <h3 class="titulo">projeto estudantil voluntário</h3>
+        <p class="detalhes">ensino de informática • 6 meses (finalizado em 2024)</p>
+        <p>atendimento a jovens e crianças para ensino de informática básica, incluindo conceitos de digitação, uso de softwares essenciais e navegação na internet.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="separador"></div>
+
+  <!-- formação e certificações -->
+  <section id="formacao">
+    <h2 class="titulo-secao">formação e certificações</h2>
+    <div class="lista-cartoes">
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">cursando</span>
+          <h3 class="titulo">redes de computadores - ifma</h3>
+          <p class="detalhes">
+            são joão dos patos/ma - curso de ensino superior<br>
+            fevereiro de 2024 - dezembro de 2026
+          </p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">certificação</span>
+          <h3 class="titulo">curso de bug bounty – danki code</h3>
+          <p class="detalhes">noções de análise de vulnerabilidades, práticas de pentest e reporte de falhas de segurança.</p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">certificação</span>
+          <h3 class="titulo">linguagem de programação python – academia bradesco</h3>
+          <p class="detalhes">fundamentos de python aplicados a scripts e soluções em programação.</p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">certificação</span>
+          <h3 class="titulo">criando projetos com interface gráfica – academia bradesco</h3>
+          <p class="detalhes">desenvolvimento de interfaces gráficas para aplicações python.</p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">certificação</span>
+          <h3 class="titulo">projetos python com estruturas de dados – academia bradesco</h3>
+          <p class="detalhes">aplicação de listas, dicionários e conjuntos em projetos de programação.</p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">certificação</span>
+          <h3 class="titulo">criação de sites com html, css e javascript – academia bradesco</h3>
+          <p class="detalhes">desenvolvimento de páginas web estáticas com estilização e interatividade.</p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">certificação</span>
+          <h3 class="titulo">noções práticas de vendas e administração – pap</h3>
+          <p class="detalhes">conhecimentos em atendimento, marketing, operações bancárias, rotinas de farmácia e secretariado.</p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">certificação</span>
+          <h3 class="titulo">conserto e manutenção de celulares – avance</h3>
+          <p class="detalhes">aprendizado em diagnóstico, manutenção e reparo de dispositivos móveis.</p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">certificação</span>
+          <h3 class="titulo">semana dos povos indígenas – por uma terra sem males</h3>
+          <p class="detalhes">
+            função: palestrante<br>
+            atividade: workshops literário - karu taru - o pequeno pajé<br>
+            carga horária: 10 horas<br>
+            local e data: são joão dos patos, 26/04/2025
+          </p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">certificação</span>
+          <h3 class="titulo">viii encontro nacional de neab & i simpósio de educação antirracista e políticas afirmativas</h3>
+          <p class="detalhes">
+            função: participante com êxito<br>
+            data: 04/06/2025 a 06/06/2025<br>
+            local: macapá<br>
+            carga horária: 30 horas
+          </p>
+        </div>
+      </div>
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">certificação</span>
+          <h3 class="titulo">oficina: biojoias – viii encontro nacional de neab & i simpósio de educação antirracista</h3>
+          <p class="detalhes">
+            função: participante com êxito<br>
+            data: 05/06/2025, das 10:00 às 12:00<br>
+            local: macapá<br>
+            carga horária: 3 horas
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- seção competências e conhecimentos -->
+  <section id="competencias">
+    <h2 class="titulo-secao">competências</h2>
+    <div class="lista-cartoes">
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">interesse profissional</span>
+          <p class="detalhes">
+            interesse em atuar na área de t.i, full-stack com python, html, css e sql, e cargos técnicos como analista e auxiliar.
+          </p>
+        </div>
+      </div>
+
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">competências</span>
+          <p class="detalhes">pontualidade, aprendiz experiente, proatividade.</p>
+        </div>
+      </div>
+
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">conhecimentos</span>
+          <p class="detalhes">
+            linguagens: python (avançado/django), html, css, sql.<br>
+            redes e segurança: ccna switching, routing, wireless essentials, ccnav7, ccna enterprise networking, security and automation.<br>
+            pacote office: word, excel, powerpoint, outlook.
+          </p>
+        </div>
+      </div>
+
+      <div class="cartao">
+        <div class="info-cartao">
+          <span class="categoria">idiomas</span>
+          <p class="detalhes">
+            inglês: intermediário em aperfeiçoamento.<br>
+            espanhol: básico.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="separador"></div>
+
+  <!-- rodapé / contato -->
+  <footer id="contato">
+    <h2 class="titulo-secao" style="margin: 20px 0 40px; font-size: 2rem;">entre em contato</h2>
+    <ul class="links-footer">
+      <li><a href="mailto:gabriel.felypy85@gmail.com"><i class="fas fa-envelope"></i> e-mail</a></li>
+      <li><a href="tel:+55989870170794"><i class="fas fa-phone"></i> telefone</a></li>
+      <li><a href="https://www.linkedin.com/in/gabriel-almeida-a398a92b9" target="_blank"><i class="fab fa-linkedin"></i> linkedin</a></li>
+      <li><a href="https://github.com/FelypyGabriel" target="_blank"><i class="fab fa-github"></i> github</a></li>
+    </ul>
+    <div class="sociais-footer">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="instagram"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="whatsapp"></a>
+    </div>
+    <p>felypy gabriel © 2025</p>
+  </footer>
+
+  <!-- botão voltar ao topo -->
+  <a href="#topo" class="voltar-topo"><i class="fas fa-arrow-up"></i></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
